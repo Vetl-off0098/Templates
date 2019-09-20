@@ -1,0 +1,25 @@
+#sort {
+	border: 1px solid #002F2F;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 0;
+}
+#img1 {
+	width: 310px;
+	height: 349px;
+}
+#about {
+	height: 40px;
+}
+.step {
+	height: 25px;
+	width: 40px;
+	border: 1.5px solid #046380;
+	border-radius: 5px;
+}
+/*<div class="form-check">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						<label class="form-check-label" for="exampleRadios2">
+							ФИО
+						</label>
+					</div>*/

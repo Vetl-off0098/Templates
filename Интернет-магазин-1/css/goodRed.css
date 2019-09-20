@@ -1,0 +1,21 @@
+#sort {
+	border: 1px solid #002F2F;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 0;
+}
+#img1 {
+	width: 310px;
+	height: 349px;
+}
+#about {
+	height: 40px;
+}
+/*<div class="col-2 mt-2">
+				<label for="name1"><b>Название</b></label>
+			</div>
+			<div class="col-6">
+				<input type="text" class="form-control" id="name1" placeholder="Монопод Xiaomi Mi Selfie Stick Tripod Белый">
+			</div>
+
+			*/

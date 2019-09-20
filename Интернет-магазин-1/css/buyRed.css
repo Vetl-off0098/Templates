@@ -1,0 +1,21 @@
+#sort {
+	border: 1px solid #002F2F;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 0;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+#img1 {
+	width: 310px;
+	height: 349px;
+}
+#about {
+	height: 40px;
+}
+/*<button class="btn btn-success" type="submit">
+								<a href="ordRed.html" class="text-decoration-none text-white">
+				  		 			Редактировать
+				  		 		</a>
+				  			</button>
+*/

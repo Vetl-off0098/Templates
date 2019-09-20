@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Вну38озьми</title>
+	<link rel="stylesheet" href="css/infItem.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<!-- font-awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	 	<a class="navbar-brand" href="#">Вну38зьми</a>
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  	</button>
+	 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  	<ul class="navbar-nav mr-auto">
+		  		<li class="nav-item">
+		  			<a href="goods.html" class="nav-link">Товары<span class="sr-only">(current)</span></a>
+		  		</li>
+		  		<li class="nav-item">
+		  			<a href="order.html" class="nav-link">Заказы</a>
+		  		</li>
+		  		<li class="nav-item dropdown active">
+		  			<a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Сведения
+		  			</a>
+		  			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		  				<a class="dropdown-item" href="infItem.html">Количество продаж товара</a>
+		  				<a class="dropdown-item" href="sumOrd.html">Суммарная стоимость всех заказов</a>
+		  			</div>
+		  		</li>
+		  		<li class="nav-item">
+	        		<a class="nav-link" href="buyers.html">Покупатели</a>
+	      		</li>
+	      		<li class="nav-item">
+	        		<a class="nav-link" href="workers.html">Сотрудники</a>
+	      		</li>
+	      		<li class="nav-item">
+	        		<a class="nav-link" href="comments.html">Отзывы</a>
+	      		</li>
+		  	</ul>
+		  	<a href="#" class="nav-link">Администратор Дмитрий</a>
+		  	<form class="form-inline my-2 my-lg-2">
+		  		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+		  		 	Выход
+		  		</button>
+		  	</form>
+		</div>
+	</nav>
+	<div class="container">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb mt-3">
+				<li class="breadcrumb-item"><a href="goods.html">Главная</a></li>
+				<li class="breadcrumb-item active" aria-current="page"><a href="#">Количество продаж товара</a></li>
+			</ol>
+		</nav>
+	</div>
+	<br>
+	<div class="row justify-content-center">
+		<div class="col-4">
+			<h3 class="ml-lg-5">Количество продаж товара</h3>
+		</div>
+	</div>
+	<br>
+	<div class="container">
+		<div id="sort" class="mb-4">
+			<div class="row">
+				<div class="col">
+					<h5>Сортировать</h5>
+				</div>
+			</div>
+			<div class="row mb-2">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-2 col-xl-2">
+					<div class="form-check mt-1">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+						<label class="form-check-label" for="exampleRadios1">
+							По дате
+						</label>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-3">
+					<label for="Ot" class="my-1 mr-2">От</label>
+					<input type="text" class="my-1 mr-2" id="Ot" placeholder="Дата">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-3">
+					<label for="Do" class="my-1 mr-2">До</label>
+					<input type="text" class="my-1 mr-2" id="Do" placeholder="Дата">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-2 col-xl-2">
+					<div class="form-check mt-1">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+						<label class="form-check-label" for="exampleRadios1">
+							По количеству
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4">
+				<div class="card bg-light border-primary mb-2" style="width: 18rem;">
+					<img src="img/i8.jpg" class="card-img-top border" alt="Товар">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-6">
+								<p class="card-text">
+							    	<b>ID:</b>
+							    </p>
+						    </div>
+						    <div class="col-6">
+								<p class="card-text">
+							    	001
+							    </p>
+						    </div>
+					    </div>
+					</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-6">
+								<p class="card-text">
+							    	<b>Количество:</b>
+							    </p>
+						    </div>
+						    <div class="col-6">
+								<p class="card-text">
+							    	3 шт
+							    </p>
+						    </div>
+					    </div>
+					</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-6">
+								<p class="card-text">
+							    	<b>Дата добавления:</b>
+							    </p>
+						    </div>
+						    <div class="col-6 mt-4">
+								<p class="card-text">
+							    	26.04.2019
+							    </p>
+						    </div>
+					    </div>
+					</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-6">
+								<p class="card-text">
+							    	<b>Общая стоимость:</b>
+							    </p>
+						    </div>
+						    <div class="col-6 mt-4">
+								<p class="card-text">
+							    	3029 руб
+							    </p>
+						    </div>
+					    </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="card bg-light border-primary mb-2" style="width: 18rem;">
+					<img src="img/i8.jpg" class="card-img-top border" alt="Товар">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-6">
+								<p class="card-text">
+							    	<b>ID:</b>
+							    </p>
+						    </div>
+						    <div class="col-6">
+								<p class="card-text">
+							    	001
+							    </p>
+						    </div>
+					    </div>
+					</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-6">
+								<p class="card-text">
+							    	<b>Количество:</b>
+							    </p>
+						    </div>
+						    <div class="col-6">
+								<p class="card-text">
+							    	3 шт
+							    </p>
+						    </div>
+					    </div>
+					</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-6">
+								<p class="card-text">
+							    	<b>Дата добавления:</b>
+							    </p>
+						    </div>
+						    <div class="col-6 mt-4">
+								<p class="card-text">
+							    	26.04.2019
+							    </p>
+						    </div>
+					    </div>
+					</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-6">
+								<p class="card-text">
+							    	<b>Общая стоимость:</b>
+							    </p>
+						    </div>
+						    <div class="col-6 mt-4">
+								<p class="card-text">
+							    	3029 руб
+							    </p>
+						    </div>
+					    </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="card bg-light border-primary mb-2" style="width: 18rem;">
+					<img src="img/i8.jpg" class="card-img-top border" alt="Товар">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-6">
+								<p class="card-text">
+							    	<b>ID:</b>
+							    </p>
+						    </div>
+						    <div class="col-6">
+								<p class="card-text">
+							    	001
+							    </p>
+						    </div>
+					    </div>
+					</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-6">
+								<p class="card-text">
+							    	<b>Количество:</b>
+							    </p>
+						    </div>
+						    <div class="col-6">
+								<p class="card-text">
+							    	3 шт
+							    </p>
+						    </div>
+					    </div>
+					</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-6">
+								<p class="card-text">
+							    	<b>Дата добавления:</b>
+							    </p>
+						    </div>
+						    <div class="col-6 mt-4">
+								<p class="card-text">
+							    	26.04.2019
+							    </p>
+						    </div>
+					    </div>
+					</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-6">
+								<p class="card-text">
+							    	<b>Общая стоимость:</b>
+							    </p>
+						    </div>
+						    <div class="col-6 mt-4">
+								<p class="card-text">
+							    	3029 руб
+							    </p>
+						    </div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<nav aria-label="Page navigation example">
+			<ul class="pagination justify-content-center">
+				<li class="page-item">
+					<a href="#" class="page-link" aria-label="Previous">
+						<span aria-hidden="true">&laquo;</span>
+					</a>
+				</li>
+				<li class="page-item"><a class="page-link" href="#">1</a>
+				</li>
+			    <li class="page-item"><a class="page-link" href="#">2</a>
+			    </li>
+			    <li class="page-item"><a class="page-link" href="#">3</a>
+			    </li>
+			    <li class="page-item"><a class="page-link" href="#">...</a>
+			    </li>
+			    <li class="page-item"><a class="page-link" href="#">63</a>
+			    </li>
+			    <li class="page-item">
+			    	<a href="#" class="page-link" aria-label="Next">
+			    		<span aria-hidden="true">&raquo;</span>
+			    	</a>
+			    </li>
+			</ul>
+		</nav>
+		<br>
+	</div>
+	<div class="p-3 bg-dark text-white">
+		<br>
+		<div class="row justify-content-center">
+			<div class="col-2">
+				<span class="mr-1">&copy</span>Все права защищены
+			</div>
+		</div>
+		<br>
+	</div>
+
+	<!-- Скрипты для подключения, не обращать внимания -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

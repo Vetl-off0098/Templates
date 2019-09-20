@@ -1,0 +1,325 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+html {
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+	color: #000;
+	line-height: 135%;
+}
+.container {
+	width: 1250px;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+	color: #222;
+}
+a:hover {
+	text-decoration: none;
+	color: #D40424;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+/*стили для хедера начало*/
+header {
+	width: 100%;
+	height: 195px;
+	border-bottom: 10px solid #002F2F;
+}
+.header {
+	line-height: 250%;
+	letter-spacing: 1.25px;
+	font-size: 14px;
+	height: 35px;
+	border-bottom: 1px solid #D3D3D3;
+}
+.head_left {
+	float: left;
+}
+.head_left a {
+	font-family: Century Gothic, sans-serif;
+	float: left;
+	margin-right: 15px;
+	color: #696969;
+}
+.head_left a:hover, .head_right a:hover {
+	color: #D40424;
+}
+.head_right {
+	float: right;
+}
+.head_right a {
+	font-family: Century Gothic, sans-serif;
+	color: #002F2F;
+}
+.header_1 {
+	/*border: 5px solid yellow;*/
+	width: 100%;
+	height: auto;
+	display: inline-flex;
+}
+.header_1_1 {
+	height: auto;
+	width: auto;
+	/*border: 5px solid black;*/
+}
+#img_logo {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 70px;
+	/*border: 5px solid blue;*/
+	width: 160px;
+	height: 80px;
+}
+.logo {
+	margin-left: 25px;
+	/*border: 5px solid red;*/
+	color: #002F2F;
+	font-family: Courier New, sans-serif;
+	font-size: 3em;
+	letter-spacing: -4px;
+}
+.header_2 {
+	height: auto;
+	width: auto;
+	/*border: 5px solid green;*/
+}
+.heading {
+	margin-top: 15px;
+	float: right;
+	/*border: 5px solid pink;*/
+}
+.heading li {
+	display: inline-block;
+}
+.heading li a {
+	font-size: 0.95em;
+	color: #002F2F;
+}
+.heading li a:hover {
+	color: #D40424;
+}
+.heading li .adres {
+	margin-right: 15px;
+}
+.heading li .pochta {
+	margin-right: 15px;
+}
+.geo_h {
+	float: left;
+	height: 18px;
+	width: 18px;
+}
+.mail_h {
+	margin-top: 3px;
+	margin-left: 15px;
+	margin-right: 3px;
+	float: left;
+	height: 15px;
+	width: 20px;
+}
+.tel_h {
+	margin-top: 2px;
+	margin-left: 15px;
+	margin-right: 3px;
+	float: left;
+	height: 16px;
+	width: 16px;
+}
+.header_3 {
+	float: right;
+	margin-top: 70px;
+	/*border: 5px solid gold;*/
+	display: inline-block;
+}
+.soc_1 {
+	height: 35px;
+	width: 35px;
+}
+.fa-twitter {
+	color: #002F2F;
+	margin: 0 10px 0 10px;
+}
+.fa-twitter:hover {
+	color: #D40424;
+}
+.fa-instagram {
+	color: #002F2F;
+	margin-left: 10px;
+}
+.fa-instagram:hover {
+	color: #D40424;
+}
+.fa-vk {
+	color: #002F2F;
+	margin-right: 10px;
+}
+.fa-vk:hover {
+	color: #D40424;
+}
+.fa-facebook {
+	color: #002F2F;
+	margin: 0 10px 0 10px;
+}
+.fa-facebook:hover {
+	color: #D40424;
+}
+/*стили для хедера конец*/
+
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: -10px;
+}
+/*хлебные крошки начало*/
+#breadcrumbs {
+	padding: 10px 0;
+}
+.breadcrumbs-sep {
+	content: url(../img/br.png);
+	background-position: 0 -72px;
+	width: 10px;
+	height: 10px;
+	margin: 0 3px;
+}
+a.breadcrumbs-link {
+	font-family: Century Gothic, sans-serif;
+	color: #A7A37E;
+}
+.breadcrumbs-sep__current {
+	font-family: Century Gothic, sans-serif;
+}
+#breadcrumbs a:hover {
+	color: #D40424;
+}
+.breadcrumbs-link, .breadcrumbs-sep {
+	display: inline-block;
+    vertical-align: middle;
+}
+/*хлебные крошки конец*/
+
+/*начинка body начало, всё, кроме этого можно смело копировать в новый документ*/
+h1 {
+	color: #002F2F;
+	margin-top: 20px;
+	font-size: 1.8em;
+}
+.text {
+	margin-top: 20px;
+}
+h2 {
+	color: #002F2F;
+	font-size: 1.3em;
+}
+.list {
+	margin-left: 25px;
+}
+.text1 {
+	font-weight: 550;
+	color: #002F2F;
+}
+/*Начинка body конец*/
+/*стили для футера начало*/
+footer { 
+	height: 100px;
+	display: inline-flex;
+	width: 100%;
+	min-height: 50px;
+	border-top: 6px solid #002F2F;
+}
+.footer {
+	height: 100%;
+	display: inline-flex;
+	width: 100%;
+}
+.soc {
+	width: 100%; 
+	display: inline-flex;
+	padding-top: 20px;
+}
+.inst {
+	text-align: center;
+	width: 33%;
+}
+.logoInst {
+	margin-right: 8px;
+}
+.VK {
+	text-align: center;
+	width: 33%;
+}
+.logoVk {
+	margin-left: 8px;
+}
+.twit {
+	text-align: center;
+	width: 33%;
+}
+.logoTwit {
+	margin-left: 6px;
+}
+.center {
+	width: 100%;
+}
+.center1 {
+	margin-left: 115px;
+	float: left;
+	padding-top: 20px;
+	text-align: center;
+}
+.center2 {
+	margin-left: 115px;
+	float: left;
+	padding-top: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.right {
+	width: 100%;
+}
+.right1 {
+	padding-top: 20px;
+	text-align: center;
+}
+.right2 {
+	padding-top: 10px;
+	text-align: center;
+}
+.prava {
+	margin-bottom: 4px;
+}
+.pravaLogo {
+	margin-left: 5px;
+}
+/*стили для футера конец*/
+.menu {
+	border-bottom: 1.5px solid #A7A37E;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	font-size: 1.15em;
+	font-family: Century Gothic, sans-serif;
+}
+.menu a {
+	padding: 0 10px;
+}
+nav a:hover {
+	color: #D40424;
+}
+.clear {clear: both}

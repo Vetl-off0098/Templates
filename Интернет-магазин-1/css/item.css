@@ -1,0 +1,572 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+html {
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+	color: #000;
+	line-height: 135%;
+}
+.container {
+	width: 1250px;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+	color: #222;
+}
+a:hover {
+	text-decoration: none;
+	color: #D40424;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+/*стили для хедера начало*/
+header {
+	width: 100%;
+	height: 195px;
+	border-bottom: 10px solid #002F2F;
+}
+.header {
+	line-height: 250%;
+	letter-spacing: 1.25px;
+	font-size: 14px;
+	height: 35px;
+	border-bottom: 1px solid #D3D3D3;
+}
+.head_left {
+	float: left;
+}
+.head_left a {
+	font-family: Century Gothic, sans-serif;
+	float: left;
+	margin-right: 15px;
+	color: #696969;
+}
+.head_left a:hover, .head_right a:hover {
+	color: #D40424;
+}
+.head_right {
+	float: right;
+}
+.head_right a {
+	font-family: Century Gothic, sans-serif;
+	color: #002F2F;
+}
+.header_1 {
+	/*border: 5px solid yellow;*/
+	width: 100%;
+	height: auto;
+	display: inline-flex;
+}
+.header_1_1 {
+	height: auto;
+	width: auto;
+	/*border: 5px solid black;*/
+}
+#img_logo {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 70px;
+	/*border: 5px solid blue;*/
+	width: 160px;
+	height: 80px;
+}
+.logo {
+	margin-left: 25px;
+	/*border: 5px solid red;*/
+	color: #002F2F;
+	font-family: Courier New, sans-serif;
+	font-size: 3em;
+	letter-spacing: -4px;
+}
+.header_2 {
+	height: auto;
+	width: auto;
+	/*border: 5px solid green;*/
+}
+.heading {
+	margin-top: 15px;
+	float: right;
+	/*border: 5px solid pink;*/
+}
+.heading li {
+	display: inline-block;
+}
+.heading li a {
+	font-size: 0.95em;
+	color: #002F2F;
+}
+.heading li a:hover {
+	color: #D40424;
+}
+.heading li .adres {
+	margin-right: 15px;
+}
+.heading li .pochta {
+	margin-right: 15px;
+}
+.geo_h {
+	float: left;
+	height: 18px;
+	width: 18px;
+}
+.mail_h {
+	margin-top: 3px;
+	margin-left: 15px;
+	margin-right: 3px;
+	float: left;
+	height: 15px;
+	width: 20px;
+}
+.tel_h {
+	margin-top: 2px;
+	margin-left: 15px;
+	margin-right: 3px;
+	float: left;
+	height: 16px;
+	width: 16px;
+}
+.header_3 {
+	float: right;
+	margin-top: 70px;
+	/*border: 5px solid gold;*/
+	display: inline-flex;
+}
+.soc_1 {
+	height: 35px;
+	width: 35px;
+}
+/*
+.button_basket {
+	font-size: 1.3em;
+	color: #002F2F;
+	height: 35px;
+	width: 100px;
+	background-color: #fff;
+	border: 2px solid #002F2F;
+	margin-right: 25px;
+}
+.button_basket:hover {
+	transform: scale(1.03, 1.03);
+}
+*/
+
+/*кнопка В корзину начало*/
+.to_cart {
+	width: 80px;
+}
+.btn {
+	height: 10px;
+	padding: 8px 20px;
+	border: 2px solid #002F2F;
+	background: #fff;
+	color: #002F2F;
+	font-size: 1.3em;
+	margin-right: 25px;
+}
+.basket:hover {
+	transform: scale(1.03, 1.03);
+}
+/*кнопка В корзину конец*/
+.fa-twitter {
+	color: #002F2F;
+	margin: 0 10px 0 10px;
+}
+.fa-twitter:hover {
+	color: #D40424;
+}
+.fa-instagram {
+	color: #002F2F;
+	margin-left: 10px;
+}
+.fa-instagram:hover {
+	color: #D40424;
+}
+.fa-vk {
+	color: #002F2F;
+	margin-right: 10px;
+}
+.fa-vk:hover {
+	color: #D40424;
+}
+.fa-facebook {
+	color: #002F2F;
+	margin: 0 10px 0 10px;
+}
+.fa-facebook:hover {
+	color: #D40424;
+}
+.menu {
+	border-bottom: 1.5px solid #A7A37E;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	font-size: 1.15em;
+	font-family: Century Gothic, sans-serif;
+}
+.menu a {
+	padding: 0 10px;
+}
+nav a:hover {
+	color: #D40424;
+}
+/*стили для хедера конец*/
+
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: -10px;
+}
+/*хлебные крошки начало*/
+#breadcrumbs {
+	padding: 10px 0;
+}
+.breadcrumbs-sep {
+	content: url(../img/br.png);
+	background-position: 0 -72px;
+	width: 10px;
+	height: 10px;
+	margin: 0 3px;
+}
+a.breadcrumbs-link {
+	font-family: Century Gothic, sans-serif;
+	color: #A7A37E;
+}
+.breadcrumbs-sep__current {
+	font-family: Century Gothic, sans-serif;
+}
+#breadcrumbs a:hover {
+	color: #D40424;
+}
+.breadcrumbs-link, .breadcrumbs-sep {
+	display: inline-block;
+    vertical-align: middle;
+}
+/*хлебные крошки конец*/
+
+/*начинка body начало, всё, кроме этого можно смело копировать в новый документ*/
+h1 {
+	color: #002F2F;
+	margin-top: 20px;
+	font-size: 1.8em;
+}
+
+h2 {
+	color: #002F2F;
+	font-size: 1.3em;
+}
+.fa-angle-up {
+	margin: 20px 0 20px 30px;
+}
+.top_block {
+	display: inline-flex;
+}
+.imgs {
+	display: flex;
+	flex-direction: column;
+	float: left;
+}
+.img_1 {
+	margin-bottom: 5px;
+}
+.fa-angle-down {
+	margin: 20px 0 20px 30px;
+}
+.img_2 {
+	margin-left: 15px;
+	margin-top: 10px;
+	float: left;
+	box-shadow: 10px 10px 10px 1px #A7A37E;
+	border: 1.5px solid #A7A37E;
+}
+.rightBlock {
+	margin-left: 50px;
+	/*border: 2px solid #002F2F;*/
+	/*float: right;*/
+	height: 400px;
+	width: 400px;
+	/*background-color: #EFECCA;*/
+}
+.word1 {
+	color: #000;
+	font-size: 1.7em;
+	font-family: Century Gothic, sans-serif;
+	text-align: center;
+	margin-top: 30px;
+}
+.word2 {
+	text-align: center;
+	font-family: Century Gothic, sans-serif;
+	margin-top: 30px;
+	font-size: 1.5em;
+
+}
+.buttons {
+	margin-top: 30px;
+	text-align: center;
+}
+.button1 {
+	font-size: 1.3em;
+	color: #002F2F;
+	height: 45px;
+	width: 150px;
+	background-color: #fff;
+	border: 2px solid #002F2F;
+}
+.button2 {
+	font-size: 1.3em;
+	color: #fff;
+	height: 45px;
+	width: 150px;
+	background-color: #002F2F;
+	border: 2px solid #002F2F;
+}
+.button1:hover {
+	transform: scale(1.03, 1.03);
+}
+.button2:hover {
+	transform: scale(1.03, 1.03);
+}
+.delivery {
+	margin-left: 8px;
+	margin-top: 40px;
+	width: 380px;
+	height: 168px;
+	border: 1px solid #002F2F;
+}
+.word3 {
+	text-align: center;
+	margin-top: 22px;
+	font-size: 1.2em;
+	font-family: Century Gothic, sans-serif;
+}
+.word4 {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 1.2em;
+	font-family: Century Gothic, sans-serif;
+}
+.menu2 {
+	display: flex;
+	justify-content: center;
+	padding: 60px 10px 20px 10px;
+	font-size: 1.15em;
+	font-family: Century Gothic, sans-serif;
+}
+.menu2 nav {
+
+}
+.menu2 a {
+	padding: 0 10px;
+	font-size: 1.05em;
+}
+table {
+	width: 600px;
+	border-collapse: collapse;
+}
+td {
+	height: 50px;
+	padding-left: 5px;
+}
+.grey {
+	background-color: #EFECCA;
+}
+.selects {
+	display: flex;
+	justify-content: center;
+}
+.container1 {
+	width: 1050px;
+	margin: 0 auto;
+}
+#date {
+	font-size: 1.3em;
+	color: #002F2F;
+	height: 35px;
+	width: 190px;
+	background-color: #fff;
+	border: 2px solid #002F2F;
+}
+#rating {
+	margin-left: 10px;
+	font-size: 1.3em;
+	color: #002F2F;
+	height: 35px;
+	width: 150px;
+	background-color: #fff;
+	border: 2px solid #002F2F;
+}
+/*Отзывы начало*/
+.comment {
+	border: 1px solid #002F2F;
+	height: auto;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.comment_info {
+	display: inline-flex;
+	font-size: 1.15em;
+	font-family: Century Gothic, sans-serif;
+	width: 1025px;
+	height: 25px;
+	border-bottom: 1px solid #002F2F;
+}
+.comment_date {
+	margin-left: 40px;
+}
+.comment_text {
+	display: inline-flex;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	width: 1025px;
+}
+.person_text {
+	width: 700px;
+	border-right: 1px solid #002F2F;
+}
+.comment_stars {
+	width: 300px;
+	display: flex;
+	justify-content: flex-end;
+}
+.stars {
+	display: flex;
+	flex-direction: column;
+}
+.mark {
+	display: flex;
+	justify-content: center;
+}
+.button_com {
+	display: flex;
+	justify-content: center;
+}
+.button_com:hover {
+	transform: scale(1.03, 1.03);
+}
+/*Отзывы конец*/
+
+/*Больше товаров. Начало*/
+.more_items {
+	text-align: center;
+}
+.more_items_123 {
+	display: flex;
+	justify-content: space-around;
+	width: 1050px;
+	margin-left: 100px;
+}
+.more_items_1 {
+	display: flex;
+	flex-direction: column;
+}
+.m_item {
+	margin-left: 33px;
+	height: 250px;
+	width: 250px;
+	
+	
+}
+.m_item:hover {
+	box-shadow: 10px 10px 10px 1px #A7A37E;
+	outline: 1px solid #A7A37E;
+	transform: scale(1.02, 1.02);
+	transition: all.5s ease-out;
+}
+.item_name {
+	margin-top: 10px;
+}
+/*Больше товаров. Конец*/
+
+/*Начинка body конец*/
+/*стили для футера начало*/
+footer { 
+	height: 100px;
+	display: inline-flex;
+	width: 100%;
+	min-height: 50px;
+	border-top: 6px solid #002F2F;
+}
+.footer {
+	height: 100%;
+	display: inline-flex;
+	width: 100%;
+}
+.soc {
+	width: 100%; 
+	display: inline-flex;
+	padding-top: 20px;
+}
+.inst {
+	text-align: center;
+	width: 33%;
+}
+.logoInst {
+	margin-right: 8px;
+}
+.VK {
+	text-align: center;
+	width: 33%;
+}
+.logoVk {
+	margin-left: 8px;
+}
+.twit {
+	text-align: center;
+	width: 33%;
+}
+.logoTwit {
+	margin-left: 6px;
+}
+.center {
+	width: 100%;
+}
+.center1 {
+	margin-left: 115px;
+	float: left;
+	padding-top: 20px;
+	text-align: center;
+}
+.center2 {
+	margin-left: 115px;
+	float: left;
+	padding-top: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.right {
+	width: 100%;
+}
+.right1 {
+	padding-top: 20px;
+	text-align: center;
+}
+.right2 {
+	padding-top: 10px;
+	text-align: center;
+}
+.prava {
+	margin-bottom: 4px;
+}
+.pravaLogo {
+	margin-left: 5px;
+}
+/*стили для футера конец*/
+
+.clear {clear: both}

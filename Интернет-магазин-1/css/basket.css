@@ -1,0 +1,407 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+html {
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+	color: #000;
+	line-height: 135%;
+}
+.container {
+	width: 1250px;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+	color: #222;
+}
+a:hover {
+	text-decoration: none;
+	color: #D40424;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+/*стили для хедера начало*/
+header {
+	width: 100%;
+	height: 195px;
+	border-bottom: 10px solid #002F2F;
+}
+.header {
+	line-height: 250%;
+	letter-spacing: 1.25px;
+	font-size: 14px;
+	height: 35px;
+	border-bottom: 1px solid #D3D3D3;
+}
+.head_left {
+	float: left;
+}
+.head_left a {
+	font-family: Century Gothic, sans-serif;
+	float: left;
+	margin-right: 15px;
+	color: #696969;
+}
+.head_left a:hover, .head_right a:hover {
+	color: #D40424;
+}
+.head_right {
+	float: right;
+}
+.head_right a {
+	font-family: Century Gothic, sans-serif;
+	color: #002F2F;
+}
+.header_1 {
+	/*border: 5px solid yellow;*/
+	width: 100%;
+	height: auto;
+	display: inline-flex;
+}
+.header_1_1 {
+	height: auto;
+	width: auto;
+	/*border: 5px solid black;*/
+}
+#img_logo {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 70px;
+	/*border: 5px solid blue;*/
+	width: 160px;
+	height: 80px;
+}
+.logo {
+	margin-left: 25px;
+	/*border: 5px solid red;*/
+	color: #002F2F;
+	font-family: Courier New, sans-serif;
+	font-size: 3em;
+	letter-spacing: -4px;
+}
+.header_2 {
+	height: auto;
+	width: auto;
+	/*border: 5px solid green;*/
+}
+.heading {
+	margin-top: 15px;
+	float: right;
+	/*border: 5px solid pink;*/
+}
+.heading li {
+	display: inline-block;
+}
+.heading li a {
+	font-size: 0.95em;
+	color: #002F2F;
+}
+.heading li a:hover {
+	color: #D40424;
+}
+.heading li .adres {
+	margin-right: 15px;
+}
+.heading li .pochta {
+	margin-right: 15px;
+}
+.geo_h {
+	float: left;
+	height: 18px;
+	width: 18px;
+}
+.mail_h {
+	margin-top: 3px;
+	margin-left: 15px;
+	margin-right: 3px;
+	float: left;
+	height: 15px;
+	width: 20px;
+}
+.tel_h {
+	margin-top: 2px;
+	margin-left: 15px;
+	margin-right: 3px;
+	float: left;
+	height: 16px;
+	width: 16px;
+}
+.header_3 {
+	float: right;
+	margin-top: 70px;
+	/*border: 5px solid gold;*/
+	display: inline-block;
+}
+.soc_1 {
+	height: 35px;
+	width: 35px;
+}
+.fa-twitter {
+	color: #002F2F;
+	margin: 0 10px 0 10px;
+}
+.fa-twitter:hover {
+	color: #D40424;
+}
+.fa-instagram {
+	color: #002F2F;
+	margin-left: 10px;
+}
+.fa-instagram:hover {
+	color: #D40424;
+}
+.fa-vk {
+	color: #002F2F;
+	margin-right: 10px;
+}
+.fa-vk:hover {
+	color: #D40424;
+}
+.fa-facebook {
+	color: #002F2F;
+	margin: 0 10px 0 10px;
+}
+.fa-facebook:hover {
+	color: #D40424;
+}
+/*стили для хедера конец*/
+
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+.page-wrap {
+	min-height: 94%;
+	margin-bottom: -10px;
+}
+/*Начинка body начало*/
+h1 {
+	color: #002F2F;
+	margin-top: 20px;
+	font-size: 1.7em;
+	font-family: Century Gothic, sans-serif;
+}
+h2 {
+	color: #002F2F;
+	font-size: 1.3em;
+}
+.button1 {
+	font-size: 1.3em;
+	color: #002F2F;
+	height: 40px;
+	width: 120px;
+	background-color: #fff;
+	border: 2px solid #002F2F;
+	/*margin-left: 894px;*/
+	/*margin-top: 12px;*/
+	position: absolute;
+	top: 300px;
+	right: 135px;
+}
+.button1:hover {
+	transform: scale(1.03, 1.03);
+}
+.mainName {
+	display: flex;
+	flex-direction: row;
+}
+.filling {
+	height: 270px;
+	margin-top: 20px;
+}
+.itemInfo {
+	display: flex;
+	flex-direction: row;
+}
+.itemPhoto {
+	height: 250px;
+	width: 250px;
+	box-shadow: 10px 10px 10px 1px #A7A37E;
+	border: 1.5px solid #A7A37E;
+}
+.itemName {
+	font-size: 1.4em;
+	font-family: Century Gothic, sans-serif;
+	height: 20px;
+	margin-left: 30px;
+}
+.itemNames {
+	margin-top: 130px;
+	display: flex;
+	flex-direction: row;
+}
+.step {
+	margin-left: 150px;
+	height: 25px;
+	width: 40px;
+	border: 1.5px solid #002F2F;
+}
+.price {
+	color: #002F2F;
+	font-size: 1.5em;
+	margin-left: 180px;
+}
+.delete {
+	margin-left: 23px;
+}
+.fa-times:hover {
+	color: #D40424;
+}
+.button2 {
+	font-size: 1.3em;
+	color: #002F2F;
+	height: 40px;
+	width: 120px;
+	background-color: #fff;
+	border: 2px solid #002F2F;
+	float: left;
+}
+.buttons {
+	margin-top: 20px;
+}
+.button3 {
+	font-size: 1.3em;
+	color: #002F2F;
+	height: 40px;
+	width: 220px;
+	background-color: #fff;
+	border: 2px solid #002F2F;
+	float: left;
+}
+.button4 {
+	font-size: 1.3em;
+	color: #fff;
+	height: 40px;
+	width: 220px;
+	background-color: #002F2F;
+	border: 2px solid #002F2F;
+	float: left;
+}
+.button3:hover {
+	transform: scale(1.03, 1.03);
+}
+.button4:hover {
+	transform: scale(1.03, 1.03);
+}
+.cost {
+	float: right;
+	display: flex;
+	flex-direction: row;
+}
+.cost1 {
+	font-size: 1.5em;
+	display: flex;
+	flex-direction: row;
+	margin-top: 12px;
+}
+.costTxt {
+	margin-right: 10px;
+	font-family: Century Gothic, sans-serif;
+}
+.costNum {
+	color: #002F2F;
+	margin-right: 20px;
+}
+/*Начинка body конец*/
+
+/*стили для футера начало*/
+footer { 
+	height: 100px;
+	display: inline-flex;
+	width: 100%;
+	min-height: 50px;
+	border-top: 6px solid #002F2F;
+}
+.footer {
+	height: 100%;
+	display: inline-flex;
+	width: 100%;
+}
+.soc {
+	width: 100%; 
+	display: inline-flex;
+	padding-top: 20px;
+}
+.inst {
+	text-align: center;
+	width: 33%;
+}
+.logoInst {
+	margin-right: 8px;
+}
+.VK {
+	text-align: center;
+	width: 33%;
+}
+.logoVk {
+	margin-left: 8px;
+}
+.twit {
+	text-align: center;
+	width: 33%;
+}
+.logoTwit {
+	margin-left: 6px;
+}
+.center {
+	width: 100%;
+}
+.center1 {
+	margin-left: 115px;
+	float: left;
+	padding-top: 20px;
+	text-align: center;
+}
+.center2 {
+	margin-left: 115px;
+	float: left;
+	padding-top: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.right {
+	width: 100%;
+}
+.right1 {
+	padding-top: 20px;
+	text-align: center;
+}
+.right2 {
+	padding-top: 10px;
+	text-align: center;
+}
+.prava {
+	margin-bottom: 4px;
+}
+.pravaLogo {
+	margin-left: 5px;
+}
+/*стили для футера конец*/
+.menu {
+	border-bottom: 1.5px solid #A7A37E;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	font-size: 1.15em;
+	font-family: Century Gothic, sans-serif;
+}
+.menu a {
+	padding: 0 10px;
+}
+nav a:hover {
+	color: #D40424;
+}
+.clear {clear: both}

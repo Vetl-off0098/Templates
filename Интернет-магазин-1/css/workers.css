@@ -1,0 +1,22 @@
+#sort {
+	border: 1px solid #002F2F;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 0;
+}
+#img1 {
+	width: 310px;
+	height: 349px;
+}
+#about {
+	height: 40px;
+}
+#filtr {
+	border: 1px solid #002F2F;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 0;
+}
+.card-img {
+	height: 284px;
+}

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Вну38озьми</title>
+	<link rel="stylesheet" href="css/ordNew.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<!-- font-awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	 	<a class="navbar-brand" href="#">Вну38зьми</a>
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  	</button>
+	 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  	<ul class="navbar-nav mr-auto">
+		  		<li class="nav-item">
+		  			<a href="goods.html" class="nav-link">Товары<span class="sr-only">(current)</span></a>
+		  		</li>
+		  		<li class="nav-item">
+		  			<a href="order.html" class="nav-link">Заказы</a>
+		  		</li>
+		  		<li class="nav-item dropdown">
+		  			<a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Сведения
+		  			</a>
+		  			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		  				<a class="dropdown-item" href="infItem.html">Количество продаж товара</a>
+		  				<a class="dropdown-item" href="sumOrd.html">Суммарная стоимость всех заказов</a>
+		  			</div>
+		  		</li>
+		  		<li class="nav-item">
+	        		<a class="nav-link" href="buyers.html">Покупатели</a>
+	      		</li>
+	      		<li class="nav-item">
+	        		<a class="nav-link" href="workers.html">Сотрудники</a>
+	      		</li>
+	      		<li class="nav-item">
+	        		<a class="nav-link" href="comments.html">Отзывы</a>
+	      		</li>
+		  	</ul>
+		  	<a href="#" class="nav-link">Администратор Дмитрий</a>
+		  	<form class="form-inline my-2 my-lg-2">
+		  		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+		  		 	Выход
+		  		</button>
+		  	</form>
+		</div>
+	</nav>
+	<div class="container">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb mt-3">
+				<li class="breadcrumb-item"><a href="#">Главная</a></li>
+				<li class="breadcrumb-item"><a href="order.html">Заказы</a></li>
+				<li class="breadcrumb-item active" aria-current="page"><a href="ordNew.html">Новый заказ</a></li>
+			</ol>
+		</nav>
+	</div>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<h3>Новый заказ</h3>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="container border">
+		<div class="row ml-1 mt-2">
+			001
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-2">
+				<label for="buy1"><b>Покупатель:</b></label>
+			</div>
+			<div class="col-xs-12 col-sm-11 col-md-3 col-lg-3 col-xl-3">
+				<a href="#">Ветлов Дмитрий Владимирович</a>
+			</div>
+		</div>
+		<br>
+		<div class="row my-1">
+			<div class="col-2 my-1">
+				<label for="idG"><b>ID Товара:</b></label>
+			</div>
+			<div class="col-xs-12 col-sm-11 col-md-3 col-lg-3 col-xl-3">
+				<input type="text" class="form-control" id="idG" placeholder="001">
+			</div>
+			<div class="col-2 my-1">
+				<label for="idG"><b>Количество:</b></label>
+			</div>
+			<div class="col-xs-12 col-sm-11 col-md-3 col-lg-3 col-xl-3">
+				<input type="text" class="form-control" id="idG" placeholder="1">
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-2 my-1">
+				<label for="data1"><b>Дата создания:</b></label>
+			</div>
+			<div class="col-xs-12 col-sm-11 col-md-3 col-lg-3 col-xl-3">
+				<input type="text" class="form-control" id="data1" placeholder="23.04.2019">
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-2 my-1">
+				<label for="stat1"><b>Статус:</b></label>
+			</div>
+			<div class="col-xs-12 col-sm-11 col-md-3 col-lg-3 col-xl-3">
+				<select class="custom-select" id="stat1">
+					<option selected>Не оплачен</option>
+					<option value="1">Оплачен</option>
+				</select>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-2">
+				<label for="com1"><b>Комментарий:</b></label>
+			</div>
+			<div class="col-xs-12 col-sm-11 col-md-3 col-lg-3 col-xl-3">
+				<textarea id="com1" cols="32" rows="3"></textarea>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-2 my-1">
+				<label for="price"><b>Стоимость заказа:</b></label>
+			</div>
+			<div class="col-xs-12 col-sm-11 col-md-3 col-lg-3 col-xl-3">
+				<input type="text" class="form-control" id="price" placeholder="3029 руб">
+			</div>
+		</div>
+		<br>
+		<div class="border w-90">
+			<div id="sort">
+				<div class="border-bottom border-dark mr-2">
+					<div class="row">
+						<div class="col mt-1 mb-2">
+							<h5>Сортировка</h5>
+						</div>
+					</div>
+					<div class="row mb-2">
+						<div class="col-xs-12 col-sm-11 col-md-2 col-lg-2 col-xl-2 mb-2">
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+								<label class="form-check-label" for="exampleRadios1">
+									По дате
+								</label>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-11 col-md-3 col-lg-3 col-xl-2 mb-2">
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+								<label class="form-check-label" for="exampleRadios2">
+									По количеству
+								</label>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-11 col-md-2 col-lg-2 col-xl-2 mb-2">
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+								<label class="form-check-label" for="exampleRadios3">
+									По цене
+								</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 mr-4">
+						<div class="card bg-light border-primary mb-2" style="width: 18rem;">
+							<img src="img/i3.jpg" class="card-img-top border" alt="Товар">
+						  	<div class="card-body">
+							    <p class="card-text">
+							    	<b>ID:</b> 001
+							    </p>
+							    <p class="card-text">
+							    	<b>Дата:</b> 23.04.2019
+							    </p>
+							    <div class="row">
+							    	<div class="col-8 mb-3">
+									    <p class="card-text">
+									    	<b>Количество:</b> 3 шт
+									    </p>
+								    </div>
+								    <div class="col-4">
+								    	<form action="#">
+											<input type="number" min="1" max="100" step="1" class="step">
+										</form>
+								    </div>
+							    </div>
+							    <p class="card-text">
+							    	<b>Цена:</b> 3029 руб
+							    </p>
+							    <div class="row">
+							    	<div class="col-6">
+							    		<a href="#" class="btn btn-primary">Изменить</a>
+							    	</div>
+							    	<div class="col-6 text-right">
+							    		<a href="#" class="btn btn-danger">Удалить</a>
+							    	</div>
+							    </div>
+						  	</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 mr-4">
+						<div class="card bg-light border-primary mb-2" style="width: 18rem;">
+							<img src="img/i3.jpg" class="card-img-top border" alt="Товар">
+						  	<div class="card-body">
+							    <p class="card-text">
+							    	<b>ID:</b> 001
+							    </p>
+							    <p class="card-text">
+							    	<b>Дата:</b> 23.04.2019
+							    </p>
+							    <div class="row">
+							    	<div class="col-8 mb-3">
+									    <p class="card-text">
+									    	<b>Количество:</b> 3 шт
+									    </p>
+								    </div>
+								    <div class="col-4">
+								    	<form action="#">
+											<input type="number" min="1" max="100" step="1" class="step">
+										</form>
+								    </div>
+							    </div>
+							    <p class="card-text">
+							    	<b>Цена:</b> 3029 руб
+							    </p>
+							    <div class="row">
+							    	<div class="col-6">
+							    		<a href="#" class="btn btn-primary">Изменить</a>
+							    	</div>
+							    	<div class="col-6 text-right">
+							    		<a href="#" class="btn btn-danger">Удалить</a>
+							    	</div>
+							    </div>
+						  	</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-3">
+						<div class="card bg-light border-primary mb-2" style="width: 18rem;">
+							<img src="img/i3.jpg" class="card-img-top border" alt="Товар">
+						  	<div class="card-body">
+							    <p class="card-text">
+							    	<b>ID:</b> 001
+							    </p>
+							    <p class="card-text">
+							    	<b>Дата:</b> 23.04.2019
+							    </p>
+							    <div class="row">
+							    	<div class="col-8 mb-3">
+									    <p class="card-text">
+									    	<b>Количество:</b> 3 шт
+									    </p>
+								    </div>
+								    <div class="col-4">
+								    	<form action="#">
+											<input type="number" min="1" max="100" step="1" class="step">
+										</form>
+								    </div>
+							    </div>
+							    <p class="card-text">
+							    	<b>Цена:</b> 3029 руб
+							    </p>
+							    <div class="row">
+							    	<div class="col-6">
+							    		<a href="#" class="btn btn-primary">Изменить</a>
+							    	</div>
+							    	<div class="col-6 text-right">
+							    		<a href="#" class="btn btn-danger">Удалить</a>
+							    	</div>
+							    </div>
+						  	</div>
+						</div>
+					</div>
+					<div class="d-flex align-items-end col-xs-12 ml-xs-0 col-sm-12 ml-sm-0 col-md-12 ml-md-0 col-lg-12 ml-lg-0 col-xl-2 ml-xl-4 mb-2">
+						<button type="button" class="btn btn-success">Добавить новый</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
+				<button type="button" class="btn btn-lg btn-danger">Отмена</button>
+			</div>
+			<div class="d-flex justify-content-end col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+				<button type="button" class="btn btn-lg btn-success">Создать</button>
+			</div>
+		</div>
+	</div>
+	<br>
+	</div>
+	<div class="p-3 bg-dark text-white">
+		<br>
+		<div class="row justify-content-center">
+			<div class="col-2">
+				<span class="mr-1">&copy</span>Все права защищены
+			</div>
+		</div>
+		<br>
+	</div>
+
+	<!-- Скрипты для подключения, не обращать внимания -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

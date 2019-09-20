@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Вну38озьми</title>
+	<link rel="stylesheet" href="css/sumOrd.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<!-- font-awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	 	<a class="navbar-brand" href="#">Вну38зьми</a>
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  	</button>
+	 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  	<ul class="navbar-nav mr-auto">
+		  		<li class="nav-item">
+		  			<a href="goods.html" class="nav-link">Товары<span class="sr-only">(current)</span></a>
+		  		</li>
+		  		<li class="nav-item">
+		  			<a href="order.html" class="nav-link">Заказы</a>
+		  		</li>
+		  		<li class="nav-item dropdown active">
+		  			<a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Сведения
+		  			</a>
+		  			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		  				<a class="dropdown-item" href="infItem.html">Количество продаж товара</a>
+		  				<a class="dropdown-item" href="sumOrd.html">Суммарная стоимость всех заказов</a>
+		  			</div>
+		  		</li>
+		  		<li class="nav-item">
+	        		<a class="nav-link" href="buyers.html">Покупатели</a>
+	      		</li>
+	      		<li class="nav-item">
+	        		<a class="nav-link" href="workers.html">Сотрудники</a>
+	      		</li>
+	      		<li class="nav-item">
+	        		<a class="nav-link" href="comments.html">Отзывы</a>
+	      		</li>
+		  	</ul>
+		  	<a href="#" class="nav-link">Администратор Дмитрий</a>
+		  	<form class="form-inline my-2 my-lg-2">
+		  		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+		  		 	Выход
+		  		</button>
+		  	</form>
+		</div>
+	</nav>
+	<div class="container">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb mt-3">
+				<li class="breadcrumb-item"><a href="#">Главная</a></li>
+				<li class="breadcrumb-item active" aria-current="page"><a href="#">Суммарная стоимость всех заказов</a></li>
+			</ol>
+		</nav>
+	</div>
+	<br>
+	<div class="row justify-content-center">
+		<div class="col-4">
+			<h3>Суммарная стоимость всех заказов</h3>
+		</div>
+	</div>
+	<br>
+	<div class="container">
+		<div class="mb-4" id="sort">
+			<div class="row">
+				<div class="col mt-2">
+					<h5>Фильтр</h5>
+				</div>
+			</div>
+			<form>
+				<div class="form-row mb-2">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-2">
+						<label for="Ot" class="my-1 mr-2">От</label>
+						<input type="text" class="my-1" style="width: 7rem;" id="Ot">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-2">
+						<label for="Do" class="my-1 mr-2">До</label>
+						<input type="text" class="my-1" style="width: 7rem;" id="Do">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mr-4">
+						<input type="text" class="form-control" placeholder="ФИО">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 mr-2">
+						<label for="stOt" class="my-1 mr-2">От</label>
+						<input type="text" class="my-1 pl-1" style="width: 7rem;" id="stOt" placeholder="Стоимость">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 mr-2">
+						<label for="stDo" class="my-1 mr-2">До</label>
+						<input type="text" class="my-1 pl-1" style="width: 7rem;" id="stDo" placeholder="Стоимость">
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="card bg-light">
+			<div class="card-body">
+				<div class="row mb-4">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-2">
+						<b>ID Заказа</b>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						001
+					</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-2">
+						<b>ФИО</b>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						Ветлов Дмитрий Владимирович
+					</div>
+				</div>
+				<div class="row mb-2">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-2">
+						<b>Стоимость</b>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						3029 руб
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="card bg-light">
+			<div class="card-body">
+				<div class="row mb-4">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-2">
+						<b>ID Заказа</b>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						002
+					</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-2">
+						<b>ФИО</b>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						Ветлов Дмитрий Владимирович
+					</div>
+				</div>
+				<div class="row mb-2">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-2">
+						<b>Стоимость</b>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						6499 руб
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="card bg-light">
+			<div class="card-body">
+				<div class="row mb-4">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-2">
+						<b>ID Заказа</b>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						003
+					</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-2">
+						<b>ФИО</b>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						Ветлов Дмитрий Владимирович
+					</div>
+				</div>
+				<div class="row mb-2">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-2">
+						<b>Стоимость</b>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						3029 руб
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<h4 class="row justify-content-center">ИТОГО: 12577 руб</h4>
+	</div>
+	<br>
+	<nav aria-label="Page navigation example">
+		<ul class="pagination justify-content-center">
+			<li class="page-item">
+				<a href="#" class="page-link" aria-label="Previous">
+					<span aria-hidden="true">&laquo;</span>
+				</a>
+			</li>
+			<li class="page-item"><a class="page-link" href="#">1</a>
+			</li>
+			<li class="page-item"><a class="page-link" href="#">2</a>
+			</li>
+			<li class="page-item"><a class="page-link" href="#">3</a>
+			</li>
+			<li class="page-item"><a class="page-link" href="#">...</a>
+			</li>
+			<li class="page-item"><a class="page-link" href="#">63</a>
+			</li>
+			<li class="page-item">
+			    <a href="#" class="page-link" aria-label="Next">
+			    	<span aria-hidden="true">&raquo;</span>
+			    </a>
+			</li>
+		</ul>
+	</nav>
+	<br>
+	</div>
+	<div class="p-3 bg-dark text-white">
+		<br>
+		<div class="row justify-content-center">
+			<div class="col-2">
+				<span class="mr-1">&copy</span>Все права защищены
+			</div>
+		</div>
+		<br>
+	</div>
+
+	<!-- Скрипты для подключения, не обращать внимания -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
