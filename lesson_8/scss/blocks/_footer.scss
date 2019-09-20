@@ -1,0 +1,84 @@
+.b-footer {
+    background: #3b3b3b;
+    padding: 41px 30px 37px 30px;
+
+    &__head {
+        color: #666;
+        font-size: 15px;
+        font-weight: 400;
+        padding-bottom: 25px;
+    }
+
+    &__text {
+        padding: 0 0 20px 0;
+        color: #999;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    &__connection {
+        color: #999;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    &__list {
+        padding: 5px 0;
+        color: #999;
+        font-size: 14px;
+        font-weight: 400;
+        border-bottom: 1px solid #484848;
+    }
+
+    &__heading {
+        color: #999;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    &__p {
+        color: #999;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    &__link {
+        color: $majorColor;
+        font-size: 15px;
+        font-weight: 400;
+        transition-duration: 0.5s;
+
+        &:hover {
+            color: #000;
+            cursor: pointer;
+        }
+
+        &_right {
+            text-align: end;
+        }
+    }
+
+    &__input {
+        background: #000;
+        color: $majorColor;
+        padding: 6px;
+        border: none;
+        border-radius: 5px;
+
+        &_margin {
+            margin-top: 10px;
+        }
+    }
+
+    &__submit {
+        background: #000;
+        color: $majorColor;
+        padding: 6px 13px;
+        border: none;
+        border-radius: 5px;
+
+        &_margin {
+            margin-top: 10px;
+        }
+    }
+}

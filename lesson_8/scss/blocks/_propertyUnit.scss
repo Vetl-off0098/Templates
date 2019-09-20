@@ -1,0 +1,29 @@
+.b-propertyUnit {
+    text-align: center;
+
+    &__icon {
+        width: 80px;
+        height: 74px;
+
+        &_topMargin {
+            @include media-breakpoint-down(sm) {
+                margin-top: 15px;
+            }
+        }
+    }
+
+    &__head {
+        color: $majorColor;
+        font-size: 21px;
+        font-weight: 400;
+        padding: 18px;
+    }
+
+    &__desc {
+        color: #888;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: justify;
+        padding: 0 5px;
+    }
+}

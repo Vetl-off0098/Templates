@@ -1,0 +1,35 @@
+.b-socials {
+    width: 251px;
+    height: 49px;
+    background: $majorColor;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    &_siteHeader {
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+        @include media-breakpoint-down(sm) {
+            left: 0;
+        }
+    }
+
+    &__icon {
+        font-size: 36px;
+        transition-duration: 0.5s;
+
+        &:hover {
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+    .fa {
+        font-size: 36px;
+    }
+}

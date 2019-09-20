@@ -1,0 +1,43 @@
+.b-project {
+
+    &__icon {
+        width: 100%;
+        height: 153px;
+        border: 4px solid #e2e2e2;
+        box-sizing: border-box;
+
+        @include media-breakpoint-down(md) {
+            margin-top: 30px;
+        }
+    }
+
+    &__head {
+        color: #444;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 13px 0;
+    }
+
+    &__desc {
+        color: #878787;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20.8px;
+    }
+
+    &__link {
+        color: $majorColor;
+        font-size: 15px;
+        font-weight: 400;
+        transition-duration: 0.5s;
+
+        &:hover {
+            color: #000;
+            cursor: pointer;
+        }
+
+        &_right {
+            text-align: end;
+        }
+    }
+}

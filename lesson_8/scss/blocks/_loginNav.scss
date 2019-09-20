@@ -1,0 +1,32 @@
+.b-loginNav {
+    width: 253px;
+    display: flex;
+    justify-content: space-between;
+
+    &_header {
+        position: absolute;
+        right: 0;
+        top: 80px;
+
+        @include media-breakpoint-down(sm) {
+            top: 170px;
+            left: 0;
+        }
+    }
+
+    &__item {
+        font-size: 12px;
+        color: $majorColor;
+        transition-duration: 0.5s;
+
+        &:hover {
+            color: #908989e0;
+            text-decoration: none;
+        }
+    }
+
+    &__divider {
+        position: relative;
+        top: -3px;
+    }
+}

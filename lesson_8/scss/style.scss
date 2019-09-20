@@ -1,0 +1,51 @@
+@import "../packages/bootstrap-4.3.1/scss/bootstrap";
+@import "_variables.scss";
+@import "blocks/header";
+@import "blocks/logoAndSlogan";
+@import "blocks/socials";
+@import "blocks/loginNav";
+@import "blocks/mainNav";
+@import "blocks/siteSearch";
+@import "blocks/mainPageSliderWrap";
+@import "blocks/propertyUnit";
+@import "blocks/properties";
+@import "blocks/fullWidthDivider";
+@import "blocks/projectsWrap";
+@import "blocks/project";
+@import "blocks/footer";
+@import "blocks/copyright";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1f1f1f;
+    font-family: "Georgia", sans-serif;
+}
+
+.container {
+    background: #fff;
+    height: 100%;
+    margin: 20px auto;
+    @include media-breakpoint-down(xs) {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.topLine {
+    height: 5px;
+    background: $majorColor;
+    margin: 0 -15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.d-block {
+    border: 10px solid #fff;
+    box-sizing: border-box;
+}

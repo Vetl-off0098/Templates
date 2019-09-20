@@ -1,0 +1,8 @@
+.b-header {
+    height: 135px;
+    position: relative;
+
+    @include media-breakpoint-down(sm) {
+        height: 220px;
+    }
+}

@@ -1,0 +1,18 @@
+.b-copyright {
+    background: #2e2e2e;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px 22px 30px;
+
+    &__copy {
+        color: #737373;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &__templateBy {
+        color: #737373;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

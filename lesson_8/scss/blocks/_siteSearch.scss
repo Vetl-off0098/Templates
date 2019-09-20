@@ -1,0 +1,43 @@
+.b-siteSearch {
+    height: 30px;
+
+    &_topMargin {
+        @include media-breakpoint-down(lg) {
+            margin-top: 15px;
+        }
+    }
+
+    &__field {
+        border: none;
+        height: inherit;
+        color: #fff;
+        padding: 0 10px;
+        outline: none;
+        transition-duration: 0.5s;
+
+        &:focus {
+            background: lighten(brown, 30%);
+        }
+
+        &_left {
+            float: left;
+        }
+    }
+
+    &__btn {
+        font-size: 12px;
+        height: inherit;
+        border: none;
+        color: $majorColor;
+        outline: none;
+        transition-duration: 0.5s;
+        background: #fff;
+        text-transform: uppercase;
+        border-left: 1px solid #ddd;
+        padding: 0 6px;
+
+        &:focus {
+            background: lighten(brown, 30%);
+        }
+    }
+}

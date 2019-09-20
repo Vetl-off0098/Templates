@@ -1,0 +1,18 @@
+.b-mainPageSliderWrap {
+    padding: 30px;
+    background: #f2f2f2;
+
+    &_cancelPadding {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    &_bottomBorder {
+        border-bottom: 1px solid #e2e2e2;
+    }
+
+    &__slider {
+        padding: 10px;
+        background: grey;
+    }
+}

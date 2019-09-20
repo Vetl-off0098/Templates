@@ -1,0 +1,22 @@
+.b-logoAndSlogan {
+    &_siteHeader {
+        position: absolute;
+        top: 20px;
+        left: 29px;
+
+        @include media-breakpoint-down(sm) {
+            top: 60px;
+            left: 0;
+        }
+    }
+
+    &__logo {
+        font-size: 46px;
+        font-variant: small-caps;
+    }
+
+    &__slogan {
+        font-size: 12px;
+        color: #908989e0;
+    }
+}
