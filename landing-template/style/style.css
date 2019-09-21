@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1350px) {
     .container {
         width: 924px;
         margin: 0 auto;
@@ -28,8 +28,12 @@ body {
 
 /*header start*/
 header {
-    width: auto;
+    padding-top: 45px;
+    height: auto;
+    background-image: url(../img/header-bg.jpg);
+    width: 100%;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 video {
@@ -51,18 +55,31 @@ video {
     height: 100vh;
 }
 
+@media (max-width: 1350px) {
+    .container {
+        width: auto;
+    }
+
+    .header {
+        width: auto;;
+    }
+}
+
 header::after {
     content: "";
     display: table;
     clear: both;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1350px) {
     .rightHead {
         width: 100%;
     }
     .leftHead {
         width: 100%;
+    }
+    .header {
+        padding-bottom: 50px;
     }
 }
 
@@ -142,13 +159,15 @@ h1 {
     
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1350px) {
     .rightPart {
         width: 47.5%;
+        float: none;
     }
 
     .leftPart {
         width: 47.5%;
+        float: none;
     }
 }
 
@@ -210,6 +229,20 @@ h1 {
 
 .sec2-marker li:nth-child(2n) {
     margin-left: 6%;
+}
+
+@media (max-width: 1350px) {
+    .sec2-marker {
+        justify-content: center;
+    }
+
+    .sec2-marker li:nth-child(2n) {
+        margin-left: 0;
+    }
+
+    .sec2-marker li {
+        width: 80%;
+    }
 }
 
 /*section2 end*/
@@ -373,6 +406,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 .card-standart {
@@ -592,6 +626,12 @@ input[type='submit'] {
     background-repeat: no-repeat;
     position: absolute;
     left: -22px;
+}
+
+@media (max-width: 1350px) {
+    .contacts {
+        display: block;
+    }
 }
 
 /*contact end*/
